@@ -13,7 +13,7 @@ Developer: Patrick Bougie
 Web: http://patrickbougie.com/
 Email: hello@patrickbougie.com
 Twitter: @pbougie
-Location: Montréal, Québec, Canada
+Location: Montreal, Quebec, Canada
 
 /* SITE */
 Languages: English
