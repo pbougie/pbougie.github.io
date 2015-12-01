@@ -105,25 +105,54 @@ a {
 }
 .main ul li {
   display: inline-block;
-  width: 3em;
+  width: 4em;
 }
 .main ul a {
-  font-size: 40px;
-  font-size: 4rem;
-  text-decoration: none;
+  display: block;
+  width: 6rem;
+  height: 6rem;
+  background-repeat: no-repeat;
+  background-size: 6rem;
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
 }
-.main .icon-website a { color: #047; }
-.main .icon-github a { color: #4183C4; }
-.main .icon-twitter a { color: #00bef6; }
-.main .icon-email a { color: #444; }
+.main .icon-website a {
+  background-image: url('../images/icons/website.png');
+  background-image: url('../images/icons/website.svg'), linear-gradient(transparent, transparent);
+}
+.main .icon-github a {
+  background-image: url('../images/icons/github.png');
+  background-image: url('../images/icons/github.svg'), linear-gradient(transparent, transparent);
+}
+.main .icon-twitter a {
+  background-image: url('../images/icons/twitter.png');
+  background-image: url('../images/icons/twitter.svg'), linear-gradient(transparent, transparent);
+}
+.main .icon-email a {
+  background-image: url('../images/icons/email.png');
+  background-image: url('../images/icons/email.svg'), linear-gradient(transparent, transparent);
+}
 
 @media screen and (min-width: 400px) {
   .main ul li {
-    width: 4.5em;
+    width: 5em;
   }
   .main ul a {
-    font-size: 50px;
-    font-size: 5rem;
+    width: 7rem;
+    height: 7rem;
+    background-size: 7rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .main ul li {
+    width: 6em;
+  }
+  .main ul a {
+    width: 8rem;
+    height: 8rem;
+    background-size: 8rem;
   }
 }
 
