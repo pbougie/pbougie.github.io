@@ -65,7 +65,7 @@ a {
 
 /* WRAPPER
 ---------------------------------------------- */
-#header, #main, #footer {
+.header, .main, .footer {
   max-width: 400px;
   margin: 0 auto;
   padding: 10px;
@@ -74,10 +74,10 @@ a {
 
 /* HEADER
 ---------------------------------------------- */
-#header {
+.header {
   margin-top: 20px;
 }
-#header h1 {
+.header h1 {
   height: 140px;
   margin: 0;
   background-image: url('../images/avatar.svg');
@@ -86,12 +86,12 @@ a {
   background-size: 140px 140px;
   text-indent: -9999px;
 }
-.no-svg #header h1 {
+.no-svg .header h1 {
   background-image: url('../images/avatar.png');
 }
 
 @media screen and (min-width: 600px) {
-  #header {
+  .header {
     margin-top: 50px;
   }
 }
@@ -99,29 +99,29 @@ a {
 
 /* MAIN
 ---------------------------------------------- */
-#main ul {
+.main ul {
   margin: 20px 0 0;
   padding: 0;
 }
-#main ul li {
+.main ul li {
   display: inline-block;
   width: 3em;
 }
-#main ul a {
+.main ul a {
   font-size: 40px;
   font-size: 4rem;
   text-decoration: none;
 }
-#main .icon-website a { color: #047; }
-#main .icon-github a { color: #4183C4; }
-#main .icon-twitter a { color: #00bef6; }
-#main .icon-email a { color: #444; }
+.main .icon-website a { color: #047; }
+.main .icon-github a { color: #4183C4; }
+.main .icon-twitter a { color: #00bef6; }
+.main .icon-email a { color: #444; }
 
 @media screen and (min-width: 400px) {
-  #main ul li {
+  .main ul li {
     width: 4.5em;
   }
-  #main ul a {
+  .main ul a {
     font-size: 50px;
     font-size: 5rem;
   }
@@ -130,10 +130,10 @@ a {
 
 /* FOOTER
 ---------------------------------------------- */
-#footer {
+.footer {
   margin-bottom: 20px;
 }
-#footer p {
+.footer p {
   margin: 0;
   color: #666;
   font-size: 11px;
