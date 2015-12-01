@@ -17,4 +17,4 @@ Location: Montréal, Québec, Canada
 
 /* SITE */
 Languages: English
-Software: HTML5, CSS3, JavaScript
+Software: HTML5, CSS3
