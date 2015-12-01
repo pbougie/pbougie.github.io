@@ -52,14 +52,12 @@ a {
 .header h1 {
   height: 140px;
   margin: 0;
-  background-image: url('../images/avatar.svg');
+  background-image: url('../images/avatar.png');
+  background-image: url('../images/avatar.svg'), linear-gradient(transparent, transparent);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 140px 140px;
   text-indent: -9999px;
-}
-.no-svg .header h1 {
-  background-image: url('../images/avatar.png');
 }
 
 @media screen and (min-width: 600px) {
