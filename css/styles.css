@@ -67,48 +67,50 @@ a {
 }
 
 
-/* MAIN
+/* EXTERNAL
 ---------------------------------------------- */
-.main ul {
-  margin: 20px 0 0;
+.external {
+  margin: 0 auto;
+  padding: 10px;
+}
+.external__items {
+  margin: 0;
   padding: 0;
 }
-.main ul li {
+.external__item {
   display: inline-block;
-  width: 4em;
+  text-align: center;
 }
-.main ul a {
+.external__link {
   display: block;
   width: 6rem;
   height: 6rem;
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: 6rem;
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
 }
-.main .icon-website a {
+.external__link.website {
   background-image: url('../images/icons/website.png');
   background-image: url('../images/icons/website.svg'), linear-gradient(transparent, transparent);
 }
-.main .icon-github a {
+.external__link.github {
   background-image: url('../images/icons/github.png');
   background-image: url('../images/icons/github.svg'), linear-gradient(transparent, transparent);
 }
-.main .icon-twitter a {
+.external__link.twitter {
   background-image: url('../images/icons/twitter.png');
   background-image: url('../images/icons/twitter.svg'), linear-gradient(transparent, transparent);
 }
-.main .icon-email a {
+.external__link.email {
   background-image: url('../images/icons/email.png');
   background-image: url('../images/icons/email.svg'), linear-gradient(transparent, transparent);
 }
 
 @media screen and (min-width: 400px) {
-  .main ul li {
-    width: 5em;
-  }
-  .main ul a {
+  .external__link {
     width: 7rem;
     height: 7rem;
     background-size: 7rem;
@@ -116,11 +118,8 @@ a {
 }
 
 @media screen and (min-width: 600px) {
-  .main ul li {
-    width: 6em;
-  }
-  .main ul a {
-    width: 8rem;
+  .external__link {
+    width: 9rem;
     height: 8rem;
     background-size: 8rem;
   }
