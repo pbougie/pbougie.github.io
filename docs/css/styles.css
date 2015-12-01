@@ -52,8 +52,8 @@ a {
 .header h1 {
   height: 140px;
   margin: 0;
-  background-image: url('../images/avatar.png');
-  background-image: url('../images/avatar.svg'), linear-gradient(transparent, transparent);
+  background-image: url('/images/avatar.png');
+  background-image: url('/images/avatar.svg'), linear-gradient(transparent, transparent);
   background-position: center top;
   background-repeat: no-repeat;
   background-size: 140px 140px;
@@ -93,24 +93,24 @@ a {
   white-space: nowrap;
 }
 .external__link.website {
-  background-image: url('../images/icons/website.png');
-  background-image: url('../images/icons/website.svg'), linear-gradient(transparent, transparent);
+  background-image: url('/images/icons/website.png');
+  background-image: url('/images/icons/website.svg'), linear-gradient(transparent, transparent);
 }
 .external__link.github {
-  background-image: url('../images/icons/github.png');
-  background-image: url('../images/icons/github.svg'), linear-gradient(transparent, transparent);
+  background-image: url('/images/icons/github.png');
+  background-image: url('/images/icons/github.svg'), linear-gradient(transparent, transparent);
 }
 .external__link.twitter {
-  background-image: url('../images/icons/twitter.png');
-  background-image: url('../images/icons/twitter.svg'), linear-gradient(transparent, transparent);
+  background-image: url('/images/icons/twitter.png');
+  background-image: url('/images/icons/twitter.svg'), linear-gradient(transparent, transparent);
 }
 .external__link.instagram {
-  background-image: url('../images/icons/instagram.png');
-  background-image: url('../images/icons/instagram.svg'), linear-gradient(transparent, transparent);
+  background-image: url('/images/icons/instagram.png');
+  background-image: url('/images/icons/instagram.svg'), linear-gradient(transparent, transparent);
 }
 .external__link.email {
-  background-image: url('../images/icons/email.png');
-  background-image: url('../images/icons/email.svg'), linear-gradient(transparent, transparent);
+  background-image: url('/images/icons/email.png');
+  background-image: url('/images/icons/email.svg'), linear-gradient(transparent, transparent);
 }
 
 @media screen and (min-width: 400px) {
