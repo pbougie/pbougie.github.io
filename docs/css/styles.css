@@ -42,8 +42,7 @@ a {
   width: 8.87rem;
   height: 8.75rem;
   margin: 0;
-  background-image: url('/images/avatar.png');
-  background-image: url('/images/avatar.svg'), none;
+  background-image: url('/images/avatar.svg');
   background-size: 100%;
   overflow: hidden;
   text-indent: 100%;
@@ -76,24 +75,19 @@ a {
   white-space: nowrap;
 }
 .external__link.website {
-  background-image: url('/images/icons/website.png');
-  background-image: url('/images/icons/website.svg'), none;
+  background-image: url('/images/website.svg');
 }
 .external__link.github {
-  background-image: url('/images/icons/github.png');
-  background-image: url('/images/icons/github.svg'), none;
+  background-image: url('/images/github.svg');
 }
 .external__link.twitter {
-  background-image: url('/images/icons/twitter.png');
-  background-image: url('/images/icons/twitter.svg'), none;
+  background-image: url('/images/twitter.svg');
 }
 .external__link.instagram {
-  background-image: url('/images/icons/instagram.png');
-  background-image: url('/images/icons/instagram.svg'), none;
+  background-image: url('/images/instagram.svg');
 }
 .external__link.email {
-  background-image: url('/images/icons/email.png');
-  background-image: url('/images/icons/email.svg'), none;
+  background-image: url('/images/email.svg');
 }
 @media screen and (min-width: 25rem) {
   .external__link {
