@@ -8,13 +8,12 @@
  |_|    |____/   \ \__,_|  \_____|_|\__|_|  |_|\__,_|_.__/
                   \____/
 
-/* TEAM */
-Developer: Patrick Bougie
-Web: http://patrickbougie.com/
+/* ME */
+Name: Patrick Bougie
+URL: https://patrickbougie.com/
 Email: hello@patrickbougie.com
 Twitter: @pbougie
-Location: Montreal, Quebec, Canada
 
 /* SITE */
-Languages: English
-Software: HTML5, CSS3
+Name: Patrick Bougie / GitHub
+URL: https://pbougie.github.io/

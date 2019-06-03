@@ -1,4 +1,4 @@
-Sitemap: http://pbougie.github.io/sitemap.txt
+Sitemap: https://pbougie.github.io/sitemap.xml
 
 User-agent: *
 Disallow:
