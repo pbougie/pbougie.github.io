@@ -8,3 +8,8 @@ if [ -x "$(command -v tidy)" ]; then
   echo "## Tidying up HTML"
   find public/* -name "*.html" -print -exec tidy -config tidy.yaml {} \;
 fi
+
+# manual
+echo
+echo "## Deploy pbougie.github.io repository"
+echo
