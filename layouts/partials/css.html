@@ -1,0 +1,2 @@
+{{ $css := resources.Get "css/styles.css" | toCSS (dict "targetPath" "css/bundle.css") | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
