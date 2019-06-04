@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="{{ .Language }}">
+<head>
+
+  <meta charset="utf-8">
+  <title>{{ .Site.Params.long_name }}</title>
+
+  <meta name="apple-mobile-web-app-title" content="{{ .Site.Params.short_name }}">
+  <meta name="application-name" content="{{ .Site.Params.short_name }}">
+  <meta name="author" content="{{ .Site.Params.long_name }}">
+  <meta name="copyright" content="© {{ .Site.Params.long_name }}">
+  <meta name="description" content="{{ .Site.Params.description }}">
+  <meta name="viewport" content="initial-scale=1">
+
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+  <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@pbougie">
+  <meta property="og:title" content="{{ .Site.Params.long_name }}">
+  <meta property="og:description" content="{{ .Site.Params.description }}">
+  <meta property="og:url" content="https://pbougie.github.io/">
+  <meta property="og:image" content="https://pbougie.github.io/images/apple-touch-icon.png">
+
+  <link rel="author" href="humans.txt">
+
+  {{ partial "css.html" . }}
+
+</head>
+<body>
+  <div class="wrap">
+
+    <header class="header">
+      <h1 class="avatar">{{ .Site.Params.long_name }}</h1>
+    </header>
+
+    <main class="main">
+      <div class="text">
+        {{ .Content }}
+      </div>
+
+      <ul class="external">
+        <li class="external__item" title="Website">
+          <a class="external__link website" href="https://patrickbougie.com/">
+            patrickbougie.com
+          </a>
+        </li>
+        <li class="external__item" title="GitHub">
+          <a class="external__link github" href="https://github.com/pbougie">
+            github.com/pbougie
+          </a>
+        </li>
+        <li class="external__item" title="Twitter">
+          <a class="external__link twitter" href="https://twitter.com/pbougie">
+            twitter.com/pbougie
+          </a>
+        </li>
+        <li class="external__item" title="Instagram">
+          <a class="external__link instagram" href="https://instagram.com/pbougie">
+            instagram.com/pbougie
+          </a>
+        </li>
+        <li class="external__item" title="Email">
+          <a class="external__link email" href="mailto:hello@patrickbougie.com">
+            hello@patrickbougie.com
+          </a>
+        </li>
+      </ul>
+    </main>
+
+    <footer class="footer">
+      <p class="legal">
+        © 2009-{{ now.Format "2006" }} Patrick Bougie.
+        All Rights Reserved.
+      </p>
+    </footer>
+
+  </div>
+</body>
+</html>

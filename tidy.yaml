@@ -1,0 +1,10 @@
+# http://tidy.sourceforge.net/docs/quickref.html
+indent: auto
+indent-spaces: 2
+markup: yes
+quiet: yes
+show-warnings: no
+tidy-mark: no
+vertical-space: yes
+wrap: 140
+write-back: yes

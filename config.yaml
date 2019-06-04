@@ -1,0 +1,12 @@
+baseURL: https://pbougie.github.io/
+cleanDestinationDir: true
+disableHugoGeneratorInject: true
+disableKinds:
+- robotsTXT
+- RSS
+- taxonomy
+- taxonomyTerm
+params:
+  short_name: P Bougie
+  long_name: Patrick Bougie
+  description: GitHub User Page for Patrick Bougie.
