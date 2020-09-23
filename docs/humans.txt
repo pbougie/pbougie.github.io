@@ -1,0 +1,19 @@
+/* humanstxt.org */
+
+  _____  ____               _____ _ _   _    _       _
+ |  __ \|  _ \     ____    / ____(_) | | |  | |     | |
+ | |__) | |_) |   / __ \  | |  __ _| |_| |__| |_   _| |__
+ |  ___/|  _ <   / / _` | | | |_ | | __|  __  | | | | '_ \
+ | |    | |_) | | | (_| | | |__| | | |_| |  | | |_| | |_) |
+ |_|    |____/   \ \__,_|  \_____|_|\__|_|  |_|\__,_|_.__/
+                  \____/
+
+/* ME */
+Name: Patrick Bougie
+URL: https://patrickbougie.com/
+Email: hello@patrickbougie.com
+Twitter: @pbougie
+
+/* SITE */
+Name: Patrick Bougie / GitHub
+URL: https://pbougie.github.io/
