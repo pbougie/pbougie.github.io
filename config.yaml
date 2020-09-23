@@ -10,3 +10,4 @@ params:
   short_name: P Bougie
   long_name: Patrick Bougie
   description: GitHub User Page for Patrick Bougie.
+publishDir: docs # GitHub Pages
