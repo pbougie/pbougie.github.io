@@ -10,10 +10,9 @@ Built with [Hugo](https://gohugo.io/).
 ## CLI
 
 - Install Hugo: `brew install hugo`
-- Build website: `hugo`
-- Watch website: `hugo --watch`
-- Run local development server: `hugo server`
-- Deploy website to production server: `./deploy.sh`
+- Build website: `make build`
+- Watch website: `make watch`
+- Deploy website to GitHub: `make deploy` (follow instructions)
 
 
 ## Deployment
