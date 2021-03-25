@@ -3,14 +3,14 @@
 /* BASE */
 body {
   margin: 0;
-  background-color: #e6ebea;
-  color: black;
+  background-color: #1c1e27;
+  color: white;
   font-family: -apple-system, system-ui, Arial, sans-serif;
   font-size: 1rem;
   text-align: center;
 }
 a {
-  color: #047;
+  color: DodgerBlue;
 }
 @media print {
   body {
