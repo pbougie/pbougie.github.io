@@ -95,9 +95,6 @@ a {
 .external__link.twitter {
   background-image: url('/images/external/twitter.svg');
 }
-.external__link.instagram {
-  background-image: url('/images/external/instagram.svg');
-}
 .external__link.email {
   background-image: url('/images/external/email.svg');
 }
