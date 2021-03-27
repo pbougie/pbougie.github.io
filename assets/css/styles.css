@@ -88,16 +88,16 @@ a {
   white-space: nowrap;
 }
 .external__link.website {
-  background-image: url('/images/external/website.svg');
+  background-image: url('/images/external-website.svg');
 }
 .external__link.github {
-  background-image: url('/images/external/github.svg');
+  background-image: url('/images/external-github.svg');
 }
 .external__link.twitter {
-  background-image: url('/images/external/twitter.svg');
+  background-image: url('/images/external-twitter.svg');
 }
 .external__link.email {
-  background-image: url('/images/external/email.svg');
+  background-image: url('/images/external-email.svg');
 }
 @media screen and (min-width: 25rem) {
   .external__link {
