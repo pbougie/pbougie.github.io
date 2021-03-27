@@ -81,6 +81,7 @@ a {
   display: block;
   width: 3.25rem;
   height: 3.25rem;
+  margin: 0 0.5rem;
   background-size: 100%;
   overflow: hidden;
   text-indent: 100%;
